@@ -1,0 +1,66 @@
+@font-face {
+    font-family: "tf2build.ttf";
+    src: url(fontelinda/tf2build.ttf);
+}
+
+body {
+    color: rgb(255, 255, 255);
+    background: rgb(104, 0, 14) 2px;
+    margin: 0px;
+    font-family: "tf2build.ttf";
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgb(163, 0, 0);
+    padding: 10px;
+    font-size: 40px;
+    color: rgb(180, 141, 10)
+}
+
+.chamada {
+    background: rgb(66, 0, 0);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 1px;
+}
+
+.videos {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.videos img {
+    opacity: 0.5;
+    height: 250px;
+}
+
+.videos img:hover {
+    opacity: 1.0;
+    border: 5px solid red;
+}
+
+.videos h2{
+    color: rgb(163, 0, 0);
+}
